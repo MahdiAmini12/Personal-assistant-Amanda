@@ -2,7 +2,7 @@
 Amanda's personal assistant (for Windows)
 
 ***
-<img align="right" src="https://b2n.ir/Amanda_M1" height="200" width="400">
+<img align="right" src="https://imgur.com/undefined" height="200" width="400">
 
 ## Installation
 
