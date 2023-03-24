@@ -2,7 +2,7 @@
 Amanda's personal assistant (for Windows)
 
 ***
-<![Amanda_M1](file:///D:/Programming/AI/Amanda%20-%20Copy1/Screenshot%202023-03-25%20035028.png) height="200" width="400">
+<img align="right" src="Screenshot 2023-03-25 035028.png" height="200" width="400">
 
 ## Installation
 
