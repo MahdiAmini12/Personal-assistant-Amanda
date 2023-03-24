@@ -2,7 +2,7 @@
 Amanda's personal assistant (for Windows)
 
 ***
-<img align="right" src="Screenshot 2023-03-25 035028.png" height="200" width="400">
+<img align="right" src="https://b2n.ir/Amanda_M1" height="200" width="400">
 
 ## Installation
 
