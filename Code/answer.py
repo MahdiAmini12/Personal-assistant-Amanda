@@ -8,8 +8,19 @@ import cv2
 
 gender = 0
 engine = pt.init()
+name = ''
 
 engine.setProperty('voice', engine.getProperty('voices')[1].id)
+
+with open('namesave.txt', 'r') as n:
+    name = n.read()
+
+
+
+def setName(query):
+    with open('namesave.txt', 'w') as sName:
+        sName.write(query)
+    pt.speak(f'Ok i changed your name to {query}')
 
 
 def whatIsMyName(query):
