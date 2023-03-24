@@ -11,11 +11,19 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Persona
 ```bash
 speech:
 pip install SpeechRecognition
+pip install pyttsx3
 
 answer:
 pip install pyttsx3
 pip install playsound
 pip install opencv-python
+
+utilities:
+pip install subprocess
+pip install webbrowser
+pip install psutil
+pip install pyttsx3
+pip install ecapture
 ```
 
 ## Usage
