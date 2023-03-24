@@ -2,9 +2,7 @@
 Amanda's personal assistant (for Windows)
 
 ***
-<img align="right" src="https://b2n.ir/gif1" height="200" width="400">
-
-***
+<img align="right" src="file:///C:/Users/Mahdi%20Amini/Downloads/Screenshot%202023-03-25%20035028.png" height="200" width="400">
 
 ## Installation
 
