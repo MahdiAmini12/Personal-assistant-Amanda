@@ -12,6 +12,8 @@ name = ''
 
 engine.setProperty('voice', engine.getProperty('voices')[1].id)
 
+
+#My name
 with open('namesave.txt', 'r') as n:
     name = n.read()
 
@@ -57,7 +59,7 @@ def wishMe():
     elif hour >= 12 and hour < 18:
         pt.speak(f"Hello {name},Good Afternoon")
     else:
-        playsound.playsound(r'ttsMP3.com_VoiceText_2023-1-4_20_41_15.mp3')
+        pt.speak(f"Hello {name}, Good evening")
 
 # time
 def time(query):
