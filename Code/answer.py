@@ -69,3 +69,4 @@ def time(query):
 
 def say(text):
     pt.speak(text)
+ 
