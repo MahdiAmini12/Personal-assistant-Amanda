@@ -16,7 +16,6 @@ pip install playsound
 pip install ecapture
 pip install pyttsx3
 pip install psutil
-start
 ```
 
 ## Usage
