@@ -1,8 +1,9 @@
 import speech_recognition as sr
-import pyttsx3 as pt
+import pyttsx3  as  pt
 import startAnimation
 import utilities
 import answer
+import Talk
 import keys 
 
 
@@ -37,6 +38,10 @@ name()
 while True:
     try:
         query = setMic().lower()
+        if "stop program" in query or "stop the program" in query or "stop Amanda" in query or "stop the Amanda" in query or "Amanda stop" in query or "exit program" in query or "exit the program" in query:
+            pt.speak('Exiting the program') 
+            print("Exiting...")
+            break
         for keyEl in keys.keyItems:
             if keyEl in query:
                 if keys.keyItems[keyEl][1]:
@@ -45,15 +50,5 @@ while True:
                     keys.keyItems[keyEl][0](ans)
                 else:
                     keys.keyItems[keyEl][0](query)
-    except Exception as e:
-        print(e)
-
-
-# بررسی برای خروج از حلقه
-        if "stop program" in query or "stop the program" in query or "stop Amanda" in query or "stop the Amanda" or "Amanda stop" in query or "exit program" in query or "exit the program" in query:
-            pt.speak('Exiting the program') 
-            print("Exiting...")
-            break
-            
     except Exception as e:
         print(e)
